@@ -1,5 +1,5 @@
-import pyaudio
 import numpy as np
+import pyaudio
 
 CHUNK = 4096 # number of data points to read at a time
 RATE = 44100 # time resolution of the recording devize (Hz)
