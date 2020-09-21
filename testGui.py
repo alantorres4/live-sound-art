@@ -18,7 +18,7 @@ def testFunc(barStr):
             y1 = randint(20,430)
             x2 = randint(20,430)
             y2 = randint(20,430)
-            canvas.create_line(x1, y1, x2, y2, fill=f'#{randint(0,0xffffff) :06x}', width=10)
+            canvas.create_line(x1, y1, x2, y2, fill='#{randint(0,0xffffff) :06x}', width=10)
             canvas.update()
 
 global stringCount
